@@ -1,0 +1,61 @@
+.egyp{border-right: 2px solid rgb(175, 206, 239) ;}
+.carousel-caption{ background-color: rgba(24, 177, 228, 0.347); border-radius: 10px; padding: 50px}
+.social-icons { position: fixed; top: 50%; right: 10px; transform: translateY(-50%); display: flex; flex-direction: column; gap: 10px; z-index: 20;}
+.social-icons .icon i {  font-size: 60px; margin: 10px 40px;  border-radius: 50%;  color: rgba(36, 60, 129, 0.991);}
+.i:hover{  color: rgba(27, 73, 225, 0.911) !important;}
+.popular {  background-color: rgb(83, 171, 171);}
+.text-copy{ color: rgb(25, 103, 103) ;}
+.img-carnak , .img-for-aswan{ background-image: url(../images/alalam_636226913299193100_25f_4x3.jpg);width: 100%;height: 50vh; background-attachment: fixed;background-repeat: no-repeat;background-size: cover;background-size: 100% 100%;}
+.img-for-aswan{ background-image: url(../images/download\ \(8\).jfif);}
+.ofer{  width: 100%;  height: 100%;}
+.offer::after{ content: ""; position: absolute; width: 0; height: 0; top: 0; left: 0; background: #7195f9; }
+.offer:hover::after {  width: 100%;  height: 100%;  transition: 1s;  opacity: 0.4;}
+.offer::before{  content: "";  position: absolute;  width: 0;  height: 0;  bottom: 0;  right: 0;  background: #7195f9; }
+.offer:hover::before { width: 100%; height: 100%; transition: 1s; opacity: 0.4;}
+.text-color{  color: rgb(125, 20, 93);}
+.cont-div{  width: 100%; height: 100%;   position: absolute;}
+.overlay{ opacity: 0.5;}
+.img-cont{ width: 140px;height: 200px;border-radius: 50%;margin-top: 100px;}
+.scale-div:hover{transform: scale(0.9, 0.9);}
+.element1 {clip-path: polygon(10% 0%, 100% 0%, 100% 100%,20% 100%);}
+.element2 {clip-path: polygon(0% 0%, 100% 0%, 90% 100%,0% 100%);}
+.line1,.line2,.line3,.line4{ border-bottom: 5px solid rgb(12, 118, 232) ; width: 180px;padding-bottom: 5px;}
+.line2{border-bottom: 5px solid rgb(232, 12, 63) ;}
+.line3{border-bottom: 5px solid rgb(15, 127, 43) ;}
+.line4{border-bottom: 5px solid rgb(162, 155, 19);}
+.btns{background-color: gray;}
+.btnss1:hover{background-color: blue;}
+.btnss2:hover{background-color: rgb(232, 12, 63);}
+.btnss3:hover{background-color: rgb(15, 127, 43) ;}
+.btnss4:hover{background-color: rgb(162, 155, 19);}
+.social-icon{background-color: black;}
+.coll-parent:focus .coll-icon{ transform: rotate(180deg);}
+.footer-section {  background-color: #00a8ff;}
+.div-border{border-bottom: 2px solid rgb(105, 218, 246) ;border-top: 2px solid rgb(105, 218, 246) ;}
+.hover-text:hover{color: #d7e1fd!important}
+.modal-backdrop{z-index: 5 !important; }
+.log{margin-right: 315px;}
+
+
+@media (max-width: 768px) {
+    .container {
+        overflow: hidden;
+    }
+    
+    .element1 , .element2{
+        order: 1;
+        display: block;
+        height: 200px !important;
+        width: 100% !important;
+        object-fit: cover;
+        clip-path: inset(0);
+    }
+    .text-part{
+        order: 2;
+        height: auto !important;
+        display: block;
+        width: 100% ;
+    }
+
+
+}
